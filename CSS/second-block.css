@@ -1,10 +1,6 @@
 .second-block {
   width: 100%;
-  height: 100vh;
-  background-image: url(../image/main/img12.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left;
+  height: 900px;
   background-color: white;
   z-index: 1;
 }
@@ -13,10 +9,9 @@
   max-width: 920px;
   height: 550px;
   margin: 0 auto;
-  margin-bottom: 50px;
   position: relative;
   top: 150px;
-  left: 100px;
+  left: 50px;
   background-color: white;
   -webkit-box-shadow: 5px 6px 43px rgba(30, 60, 114, 0.3);
           box-shadow: 5px 6px 43px rgba(30, 60, 114, 0.3);
@@ -24,7 +19,7 @@
   z-index: 2;
 }
 
-.second-block__img {
+.second-block__contant {
   max-width: 500px;
   margin: 0 auto;
   z-index: 3;
@@ -62,7 +57,7 @@
   max-width: 240px;
   position: absolute;
   top: -120px;
-  left: 30px;
+  left: 0px;
 }
 
 .second-block__img-dot {
@@ -70,5 +65,10 @@
   position: absolute;
   top: 120px;
   right: 100px;
+}
+
+.second-block__img {
+  position: relative;
+  top: -520px;
 }
 /*# sourceMappingURL=second-block.css.map */
