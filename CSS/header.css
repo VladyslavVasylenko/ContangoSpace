@@ -109,6 +109,7 @@
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   margin-right: 12px;
+  cursor: pointer;
 }
 
 .btn-market {
@@ -125,6 +126,7 @@
   color: #FFFFFF;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  cursor: pointer;
 }
 
 .btn-learn:hover {
@@ -181,6 +183,7 @@
   background-color: #FFFFFF;
   border: none;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .main-slide .slick-dots li.slick-active button {
